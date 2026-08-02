@@ -1,0 +1,6 @@
+# HackerRank Orchestrate Message Notification Router Dependencies
+groq>=0.4.0
+Pillow>=9.0.0
+# Optional / Advanced dependencies
+# pytesseract>=0.3.8
+# openai-whisper>=20231117

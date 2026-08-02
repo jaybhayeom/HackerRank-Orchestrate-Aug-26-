@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0243
+msg_091,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0238
+msg_090,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0339
+msg_048,mute,scam,The message asks for urgent payment or verification through a suspicious penalty threat flow.,0.87,message_0151
+msg_040,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0136
+msg_075,mute,event,User has opted out of business marketing promotions.,0.95,message_0206;message_0205
+msg_005,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0065;message_0382
+msg_104,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0224;message_0383
+msg_069,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0080;message_0177
+msg_107,mute,scam,The message contains fake system/metadata headers or instructions intended to deceive the router.,0.9,message_0213;message_0235
+msg_070,mute,scam,"The message asks for urgent OTP, password, or account verification through a suspicious flow.",0.87,message_0369
+msg_003,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0400;message_0031
+msg_099,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0227
+msg_008,digest,business_update,"A business account is sending a transactional statement, refund update, or service feedback request.",0.88,message_0296
+msg_092,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0346
+msg_060,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0284
+msg_004,mute,event,User has opted out of business marketing promotions.,0.95,message_0245;message_0005
+msg_030,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0115
+msg_045,notify,urgent,Delivery agent is at the door requiring flat clearance or entry confirmation.,0.88,message_0061
+msg_052,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0208;message_0207
+msg_009,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0074
+msg_071,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0197;message_0198
+msg_016,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0024
+msg_065,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.81,message_0261
+msg_038,mute,spam,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0342;message_0131
+msg_086,digest,business_update,Processed via metadata fallback inspection for voice attachment.,0.5,message_0222
+msg_014,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0258;message_0018
+msg_094,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0356
+msg_029,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0113
+msg_105,mute,spam,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0373;message_0233
+msg_002,notify,personal,The sender directly asks this user for a response or action.,0.87,message_0003;message_0059
+msg_010,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0011;message_0242
+msg_078,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0220;message_0211
+msg_013,digest,promotion,The message is promotional but matches a topic or business the user has opted into.,0.78,message_0081;message_0082
+msg_018,mute,spam,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0026
+msg_044,mute,scam,"The message asks for urgent OTP, password, or account verification through a suspicious flow.",0.87,message_0143;message_0222
+msg_032,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0119
+msg_106,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0376;message_0234
+msg_006,mute,scam,Audit Mini-Agent: Overridden to mute due to sensitive verification or scam trigger.,0.87,message_0097;message_0067
+msg_109,mute,scam,The message contains fake system/metadata headers or instructions intended to deceive the router.,0.9,message_0151
+msg_108,mute,scam,User has opted out of business marketing promotions.,0.95,message_0094
+msg_019,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0277
+msg_088,digest,personal,Processed via metadata fallback inspection for voice attachment.,0.5,message_0232
+msg_056,digest,personal,Audit Mini-Agent: Downgraded notify to digest because user has muted this group.,0.87,message_0226
+msg_027,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages.,0.81,message_0272;message_0033
+msg_050,mute,event,User has opted out of business marketing promotions.,0.95,message_0279
+msg_083,digest,personal,Processed via metadata fallback inspection for voice attachment.,0.5,message_0219
+msg_063,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0364;message_0254
+msg_033,mute,greeting,The message is a harmless greeting that can be read later.,0.82,message_0372
+msg_061,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0080;message_0177
+msg_020,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0096;message_0095
+msg_017,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0319
+msg_058,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0241;message_0039
+msg_026,mute,scam,User has opted out of business marketing promotions.,0.95,message_0032
+msg_047,notify,urgent,"Group notice regarding operational updates, meeting syncs, or society events.",0.86,message_0001
+msg_046,mute,scam,Audit Mini-Agent: Overridden to mute due to sensitive verification or scam trigger.,0.87,message_0148;message_0407
+msg_042,notify,urgent,An imminent gate closure or access obstruction requires urgent vehicle clearance.,0.88,message_0058;message_0140
+msg_079,mute,scam,"The message asks for urgent OTP, password, or account verification through a suspicious flow.",0.87,message_0369
+msg_098,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0226;message_0359
+msg_037,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0001;message_0410
+msg_007,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0275;message_0276
+msg_085,mute,business_update,Processed via metadata fallback inspection for voice attachment.,0.5,message_0221
+msg_001,notify,urgent,A trusted group admin sent a time-sensitive update that should interrupt the user.,0.88,message_0057;message_0240
+msg_021,digest,payment,Legitimate payment notice or maintenance reminder directing residents to official payment channels.,0.88,message_0098;message_0068
+msg_028,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0034
+msg_012,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0194;message_0178
+msg_064,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0201;message_0087
+msg_103,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0065;message_0382
+msg_031,notify,urgent,"Group notice regarding operational updates, meeting syncs, or society events.",0.86,message_0117;message_0249
+msg_057,notify,personal,The sender requests an immediate call or time-sensitive response.,0.87,message_0059;message_0169
+msg_087,digest,personal,Processed via metadata fallback inspection for voice attachment.,0.5,message_0223
+msg_067,digest,payment,Legitimate payment notice or maintenance reminder directing residents to official payment channels.,0.88,message_0098;message_0068
+msg_039,notify,event,A school admin sent a same-day operational update that the user is likely to need immediately.,0.88,message_0364
+msg_082,digest,personal,Processed via metadata fallback inspection for voice attachment.,0.5,message_0218;message_0380
+msg_066,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0257;message_0402
+msg_049,notify,business_update,A verified business is sending an update that matches the user's recent order history.,0.91,message_0154;message_0291
+msg_015,mute,scam,Audit Mini-Agent: Overridden to mute due to sensitive verification or scam trigger.,0.87,message_0199;message_0023
+msg_051,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0257
+msg_097,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0359
+msg_089,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0299;message_0396
+msg_053,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0161;message_0253
+msg_059,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0263;message_0221
+msg_024,mute,promotion,User has opted out of business marketing promotions.,0.95,message_0257
+msg_072,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0199;message_0085
+msg_036,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0283
+msg_076,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0208;message_0207
+msg_055,notify,personal,The sender requests an immediate call or time-sensitive response.,0.87,message_0166
+msg_102,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0371;message_0230
+msg_080,notify,urgent,An imminent gate closure or access obstruction requires urgent vehicle clearance.,0.88,message_0216;message_0130
+msg_093,mute,scam,User has opted out of business marketing promotions.,0.95,message_0347;message_0348
+msg_034,mute,spam,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0013;message_0167
+msg_035,digest,business_update,"A business account is sending a transactional statement, refund update, or service feedback request.",0.88,message_0281
+msg_101,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0370;message_0229
+msg_041,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0137
+msg_011,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0123;message_0171
+msg_110,mute,scam,The message contains fake system/metadata headers or instructions intended to deceive the router.,0.9,message_0238
+msg_095,mute,scam,The message contains fake system/metadata headers or instructions intended to deceive the router.,0.9,message_0201;message_0087
+msg_074,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0203;message_0204
+msg_073,mute,forward,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.84,message_0147;message_0252
+msg_054,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0389
+msg_068,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0191
+msg_100,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,message_0362
+msg_062,digest,personal,Safe non-urgent group conversation or peer notice.,0.82,message_0043
+msg_096,digest,personal,"The sender is trusted, but the message has no urgent action or safety relevance.",0.82,none
+msg_043,notify,urgent,A trusted group admin sent a time-sensitive update that should interrupt the user.,0.88,message_0097;message_0067
+msg_077,notify,event,A school admin sent a same-day operational update that the user is likely to need immediately.,0.88,message_0051;message_0364
+msg_081,digest,personal,Processed via metadata fallback inspection for voice attachment.,0.5,message_0217
+msg_025,mute,business_update,User has opted out of business marketing promotions.,0.95,message_0239;message_0004
+msg_084,mute,promotion,Processed via metadata fallback inspection for voice attachment.,0.5,message_0220
+msg_022,mute,scam,"The message requests urgent payment, unverified link clicks, or screenshot submission under threat of service cutoff.",0.87,message_0270;message_0098
